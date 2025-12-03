@@ -17,6 +17,8 @@ console.log(fourthTeacher);
 const remuved = teachers.splice(4, 1, 'Patrick')
 console.log(teachers);
 
+//teachers[4] = 'Patrick'
+
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
 const lastTeacher = teachers.pop();
 console.log(lastTeacher);
